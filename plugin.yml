@@ -1,0 +1,24 @@
+---
+name: Esoteric-Loader
+author: ethaniccc
+description: A loader for the Esoteric anti-cheat
+version: 2.0.0
+main: ethaniccc\Loader\Loader
+api: 4.0.0
+mcpe-protocol: [431]
+permissions:
+  ac.alerts:
+    description: Get access to anti-cheat alerts
+    default: op
+  ac.bypass:
+    description: Bypass Esoteric punishments
+    default: op
+  ac.logs:
+    description: Get access to Esoteric logs
+    default: op
+  ac.banwave:
+    description: Execute Esoteric banwaves
+    default: op
+  ac.timings:
+    description: Execute Timings for Esoteric
+    default: op
